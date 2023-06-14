@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+html{
+    font-size:100%;
+}
+
+body{
+    font-family:YuGothic;
+    line-height:1.7;
+    color:#432;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width:100%;
+}
+
+.main-nav{
+    display:flex;
+    font-size:1.25rem;
+    text-transform:uppercase;
+    margin-top:34px;
+    list-style:none;
+    flex-wrap: wrap;
+}
+.main-nav li{
+    margin-left:36px;
+    font-size: 10px;
+}
+.main-nav a{
+    color:#432;
+}
+.main-nav a:hover{
+    color:rgb(0, 7, 221);
+}
+
+.page-header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.wrapper{
+    max-width:1100px;
+    margin:0 auto;
+    padding: 0 4%;
+}
+
+
+
+
+.home-content{
+    text-align:center;
+    margin-top:10%;
+}
+.home-content p{
+    font-size:1.125rem;
+    margin:10px 0 42px;
+    color:rgb(128, 229, 103);
+}
+
+/* 見出し */
+.page-title{
+    font-size:5rem;
+    font-family:'Philosopher',serif;
+    font-weight:normal;
+    color:rgb(219, 255, 127)
+}
+.button{
+    font-size:1.375rem;
+    background:#0bd;
+    color:#fff;
+    border-radius:20px;
+    padding:18px 32px;
+}
+.button:hover{
+    background:#0090aa;
+}
+
+/* 背景画像を挿入 */
+.big-bg{
+    background-size:cover;
+    background-position:center top;
+}
+#home{
+    background-image:url(../images/tsukubasanedit.jpg);
+    min-height:100vh;
+}
+#home .page-title{
+    text-transform:none;
+}
+
+/* home以外の写真 */
+.big-bg2{
+    background-size:cover;
+    background-position:top;
+}
+#home2{
+    background-image:url(../images/tsukubasan2.jpg);
+    
+}
+#home2 .page-title{
+    text-transform:none;
+}
+
+/* skillsの並び */
+.content2-info{
+    display:flex;
+    justify-content: space-between;
+    margin-left:10%;
+    margin-right: 10%;
+}
+.content2 .comment{
+    margin-left: 10%;
+    margin-right: 10%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+/* background */
+.background-content{
+    margin-left: 10%;
+    margin-right:10%;
+}
+.education-info p{
+    font-size:13px;
+}
+.work-info ul p{
+    font-size:13px;
+}
+
+/* hobby */
+.content4-info{
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+/* portofolios */
+.content5-info{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.content5-info p{
+    font-size:10px;
+}
+
+/* goal */
+.content6-info{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.content6-info p{
+    font-size:15px;
+}
+
+/* contact */
+.content7-info{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.content7-info p{
+    font-size:15px;
+}
+.contact-infomation li{
+    font-size:10px;
+}
+
+table{
+    border: solid 1px ;
+}
+
+th{
+    border:solid 1px;
+}
+td{
+    border:solid 1px;
+}
+
+
+/* footer */
+footer{
+    background:#432;
+    text-align:center;
+    padding:26px 0;
+}
+
+footer .wrapper p{
+    color:#fff;
+    font-size:5px;
+}
