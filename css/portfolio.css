@@ -119,6 +119,18 @@ img{
     justify-content: space-evenly;
 }
 
+.skill-logos {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-logos img{
+    height:50px;
+}
+
+
 
 /* background */
 .background-content{
