@@ -48,9 +48,11 @@
                     <br>
                     <h2>お問い合わせ </h2>
                     <table>
-                        <form action="mailto: aries0326taisei@gmail.com" method="post">
-                            <tr><td>件名、お問い合わせ内容を以下のメールからお知らせください。</td></tr>
-                            <tr><td><input type="submit" value="メールを開く"></td>
+                        <form action="mailto:" method="post">
+                            <tr><th>*Name</th><td><input type="text" name="name"></td></tr>
+                            <tr><th>*Email</th><td><input type="text" name="mail"></td></tr>
+                            <tr><th>*Content of contact</th><td><textarea name="content" cols="50" rows="10"></textarea></td></tr>
+                            <tr><th><input type="submit" value="send from mail"></th> </tr>  
                         </form>
                     </table>
                 </div>
